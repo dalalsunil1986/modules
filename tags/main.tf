@@ -1,3 +1,0 @@
-locals {
-  function = "file-storage"
-}
