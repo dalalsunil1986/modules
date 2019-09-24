@@ -3,7 +3,7 @@ resource "aws_s3_bucket" "example" {
   acl    = "private"
 
   tags = {
-    name  = "Terragrunt testing"
+    name  = "Terragrunt testing sample bucket"
     env   = var.env
     owner = "rmitula"
   }
