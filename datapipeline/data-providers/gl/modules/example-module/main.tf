@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "example" {
-  bucket = "rmitula-${var.env}"
+  bucket = "${var.prefix}-${var.name}-${var.env}"
   acl    = "private"
 
   tags = {
